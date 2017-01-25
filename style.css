@@ -13,6 +13,8 @@ html {
   height: 1px;
   background: url(img/nav_hov.png);
 }
+
+/* Navigation */
 nav {
   background: url(img/nav.png) no-repeat center top;
   width: 960px;
@@ -64,9 +66,15 @@ nav ul li.play a {
 }
 nav ul li a:hover {
   background-image: url(img/nav_hov.png);
-  //background-position: center -3px;
 }
 nav ul li.play {
   margin-left: -4px;
   padding-bottom: 30px
+}
+/* Slider */
+.slider {
+  background: url(img/slider.png);
+  width: 960px;
+  height: 200px;
+  box-sizing: border-box;
 }
