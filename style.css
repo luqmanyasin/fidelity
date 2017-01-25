@@ -20,7 +20,7 @@ html {
 nav {
   background: url(img/nav.png) no-repeat center top;
   width: 960px;
-  height: 74px;
+  height: 73px;
 }
 nav ul {list-style-type: none; list-style: none;}
 nav ul li {
