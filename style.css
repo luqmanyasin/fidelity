@@ -2,6 +2,7 @@ html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockqu
 
 html {
   background: url(img/web-bg.png) no-repeat center top #131313;
+  color: #fff;
 }
 .container {
   width: 960px;
@@ -36,7 +37,6 @@ nav ul li a {
   font-family: "Arial";
   font-weight: bold;
   text-align: center;
-  color: #fff;
   transition: .2s;
   background-position: 0 -0px;
   background-image: url(img/nav.png);
@@ -83,6 +83,7 @@ nav ul li.play {
   text-align: center;
   margin: 0 auto;
   height: 30px;
+  line-height: 28px;
   background: url(img/nav.png);
   background-position: center bottom;
 }
