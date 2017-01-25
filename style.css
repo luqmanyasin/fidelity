@@ -1,0 +1,66 @@
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address,big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul,li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed,figure, figcaption,footer, header, hgroup,menu, nav, output, ruby, section, summary,time, mark, audio, video {margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;}article, aside, details, figcaption, figure,footer,header, hgroup, menu, nav, section {display: block;}body {line-height: 1;}ol, ul{list-style: none;}blockquote, q {quotes: none;}blockquote:before, blockquote:after,q:before, q:after {content: "";content: none;}table {border-collapse: collapse;border-spacing: 0;}
+
+html {
+  background: url(img/web-bg.png) no-repeat center top #131313;
+}
+.container {
+  width: 960px;
+  margin: 155px auto 0 auto;
+}
+nav {
+  background: url(img/nav.png) no-repeat center top;
+  width: 960px;
+  padding: 3px 3px 0;
+  height: 70px;
+}
+nav ul {list-style-type: none; list-style: none;}
+nav ul li {
+  margin: -2px;
+}
+nav ul li, nav ul li a {
+  display: inline-block;
+}
+nav ul li a {
+  width: 190px;
+  line-height: 70px;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Arial";
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  transition: .2s;
+  background-position: 0 -3px;
+  background-image: url(img/nav.png);
+}
+nav ul li:first-child {
+  margin: 0;
+}
+nav ul li:first-child a {
+  background-position: -2px -3px !important;
+
+}
+nav ul li:nth-child(2) a {
+  background-position: -194px -3px !important;
+
+}
+nav ul li:nth-child(4) a {
+  background-position: -582px -3px !important;
+
+}
+nav ul li:nth-child(5) a {
+  background-position: -772px -3px !important;
+
+}
+nav ul li.play a {
+  width: 200px;
+  background-position: center -3px !important;
+}
+nav ul li a:hover {
+  background-image: url(img/nav_hov.png);
+  //background-position: center -3px;
+}
+nav ul li.play {
+  margin-left: -4px;
+  padding-bottom: 30px
+}
