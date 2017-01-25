@@ -37,6 +37,7 @@ nav ul li a {
   font-family: "Arial";
   font-weight: bold;
   text-align: center;
+  color: #fff;
   transition: .2s;
   background-position: 0 -0px;
   background-image: url(img/nav.png);
