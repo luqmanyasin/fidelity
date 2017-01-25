@@ -78,3 +78,11 @@ nav ul li.play {
   height: 200px;
   box-sizing: border-box;
 }
+.player-count {
+  width: 200px;
+  text-align: center;
+  margin: 0 auto;
+  height: 30px;
+  background: url(img/nav.png);
+  background-position: center bottom;
+}
