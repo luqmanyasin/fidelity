@@ -63,6 +63,7 @@ nav ul li:nth-child(5) a {
 }
 nav ul li.play a {
   width: 200px;
+  height: 106px;
   background-position: center -0px !important;
 }
 nav ul li a:hover {
