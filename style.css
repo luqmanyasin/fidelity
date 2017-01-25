@@ -6,6 +6,7 @@ html {
 .container {
   width: 960px;
   margin: 155px auto 0 auto;
+  padding: 3px 3px 0;
 }
 .container:after {
   content: "";
@@ -18,7 +19,6 @@ html {
 nav {
   background: url(img/nav.png) no-repeat center top;
   width: 960px;
-  padding: 3px 3px 0;
   height: 70px;
 }
 nav ul {list-style-type: none; list-style: none;}
@@ -38,31 +38,31 @@ nav ul li a {
   text-align: center;
   color: #fff;
   transition: .2s;
-  background-position: 0 -3px;
+  background-position: 0 -0px;
   background-image: url(img/nav.png);
 }
 nav ul li:first-child {
   margin: 0;
 }
 nav ul li:first-child a {
-  background-position: -2px -3px !important;
+  background-position: -2px -0px !important;
 
 }
 nav ul li:nth-child(2) a {
-  background-position: -194px -3px !important;
+  background-position: -194px -0px !important;
 
 }
 nav ul li:nth-child(4) a {
-  background-position: -582px -3px !important;
+  background-position: -582px -0px !important;
 
 }
 nav ul li:nth-child(5) a {
-  background-position: -772px -3px !important;
+  background-position: -772px -0px !important;
 
 }
 nav ul li.play a {
   width: 200px;
-  background-position: center -3px !important;
+  background-position: center -0px !important;
 }
 nav ul li a:hover {
   background-image: url(img/nav_hov.png);
