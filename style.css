@@ -7,6 +7,12 @@ html {
   width: 960px;
   margin: 155px auto 0 auto;
 }
+.container:after {
+  content: "";
+  position: relative;
+  height: 1px;
+  background: url(img/nav_hov.png);
+}
 nav {
   background: url(img/nav.png) no-repeat center top;
   width: 960px;
