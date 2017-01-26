@@ -120,6 +120,9 @@ nav ul li.play {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  background: url(img/slider.png) bottom;
+  z-index: 9;
+  margin-top: 0;
 }
 
 .stats > div {
@@ -136,8 +139,6 @@ nav ul li.play {
   padding: 20px;
   box-shadow: 0 0 0 1px rgba(114,58,32,.5) inset,  0px 0 10px 0px #1a1a1a;
   border: 1px solid #181717;
-background: #181717;
+  background: rgba(24, 23, 23, 0.5);
 }
-.box {
-  padding-bottom: 10px;
-}
+
