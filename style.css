@@ -132,8 +132,9 @@ nav ul li.play {
   display: flex;
   justify-content: center;
   flex-direction: row;
+  background: #A1522D;
 }
 .box {
-  padding: 10px;
+  padding: 5px 10px 5px 0px;
   border: thin solid black;
 }
