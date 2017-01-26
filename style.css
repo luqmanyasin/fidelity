@@ -8,6 +8,7 @@ html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockqu
 html {
   background: url(img/web-bg.png) no-repeat center top #131313;
   color: #fff;
+  font-family: Arial;
 }
 
 .container {
@@ -123,7 +124,7 @@ nav ul li.play {
 
 .stats > div {
   display: flex;
-  flex-basis: calc(50% - 22px);
+  flex-basis: 50%;
   justify-content: center;
   flex-direction: column;
 }
@@ -132,9 +133,11 @@ nav ul li.play {
   display: flex;
   justify-content: center;
   flex-direction: row;
-  background: #A1522D;
+  padding: 20px;
+  box-shadow: 0 0 0 1px rgba(114,58,32,.5) inset,  0px 0 10px 0px #1a1a1a;
+  border: 1px solid #181717;
+background: #181717;
 }
 .box {
-  padding: 5px 10px 5px 0px;
-  border: thin solid black;
+  padding-bottom: 10px;
 }
